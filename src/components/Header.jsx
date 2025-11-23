@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
+import logo from "../assets/vrlogo.jpeg"; // added logo import
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Header() {
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white font-bold">VR</div>
+          <img src={logo} alt="VR Dental Care logo" className="w-10 h-10 object-cover rounded-full" />
           <Link to="/" className="text-xl font-semibold text-gray-900">VR Dental Care</Link>
         </div>
 
@@ -50,7 +51,7 @@ export default function Header() {
           <div className="px-6 pt-6 pb-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white font-bold">VR</div>
+                <img src={logo} alt="VR Dental Care logo" className="w-10 h-10 object-cover rounded-full" />
                 <Link to="/" onClick={() => setOpen(false)} className="text-lg font-semibold text-gray-900">VR Dental Care</Link>
               </div>
               <button aria-label="Close menu" onClick={() => setOpen(false)} className="p-2 rounded-md text-gray-700">
