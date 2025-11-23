@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vr-dental-care/static/css/main.bfee2214.css",
-    "main.js": "/vr-dental-care/static/js/main.e7b19f8f.js",
+    "main.js": "/vr-dental-care/static/js/main.7c1d9855.js",
     "static/media/Homephoto.jpeg": "/vr-dental-care/static/media/Homephoto.8d1a07be2cd347bfe5c4.jpeg",
     "index.html": "/vr-dental-care/index.html",
     "static/media/clinic-interior.svg": "/vr-dental-care/static/media/clinic-interior.84a642263b25cf40861052180a6d078b.svg",
     "static/media/doctor.svg": "/vr-dental-care/static/media/doctor.a77d32f595c7713c7d4a133939aaca25.svg",
     "static/media/before.svg": "/vr-dental-care/static/media/before.5cfd84549ad86c865fba770100727926.svg",
     "main.bfee2214.css.map": "/vr-dental-care/static/css/main.bfee2214.css.map",
-    "main.e7b19f8f.js.map": "/vr-dental-care/static/js/main.e7b19f8f.js.map"
+    "main.7c1d9855.js.map": "/vr-dental-care/static/js/main.7c1d9855.js.map"
   },
   "entrypoints": [
     "static/css/main.bfee2214.css",
-    "static/js/main.e7b19f8f.js"
+    "static/js/main.7c1d9855.js"
   ]
 }
