@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vr-dental-care/static/css/main.8a2d96d3.css",
-    "main.js": "/vr-dental-care/static/js/main.15d11b58.js",
+    "main.js": "/vr-dental-care/static/js/main.f9690125.js",
     "static/media/Homephoto.jpeg": "/vr-dental-care/static/media/Homephoto.8d1a07be2cd347bfe5c4.jpeg",
     "static/media/vrlogo.jpeg": "/vr-dental-care/static/media/vrlogo.4d3a6228301f5ac919f9.jpeg",
     "index.html": "/vr-dental-care/index.html",
@@ -9,10 +9,10 @@
     "static/media/doctor.svg": "/vr-dental-care/static/media/doctor.a77d32f595c7713c7d4a133939aaca25.svg",
     "static/media/before.svg": "/vr-dental-care/static/media/before.5cfd84549ad86c865fba770100727926.svg",
     "main.8a2d96d3.css.map": "/vr-dental-care/static/css/main.8a2d96d3.css.map",
-    "main.15d11b58.js.map": "/vr-dental-care/static/js/main.15d11b58.js.map"
+    "main.f9690125.js.map": "/vr-dental-care/static/js/main.f9690125.js.map"
   },
   "entrypoints": [
     "static/css/main.8a2d96d3.css",
-    "static/js/main.15d11b58.js"
+    "static/js/main.f9690125.js"
   ]
 }
