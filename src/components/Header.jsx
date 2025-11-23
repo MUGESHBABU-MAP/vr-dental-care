@@ -17,7 +17,7 @@ export default function Header() {
           <NavLink to="/services" className={({isActive}) => isActive ? "text-primary font-medium" : ""}>Services</NavLink>
           <NavLink to="/gallery" className={({isActive}) => isActive ? "text-primary font-medium" : ""}>Gallery</NavLink>
           <NavLink to="/contact" className={({isActive}) => isActive ? "text-primary font-medium" : ""}>Contact</NavLink>
-          <a href="/#book" className="ml-4 inline-block bg-primary text-white px-4 py-2 rounded-md">Book Appointment</a>
+          <Link to="/contact#book" className="ml-4 inline-block bg-primary text-white px-4 py-2 rounded-md">Book Appointment</Link>
         </nav>
 
         <div className="md:hidden">
