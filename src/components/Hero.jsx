@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import doctor from "../assets/doctor.svg";
+import doctor from "../assets/Homephoto.jpeg";
 
 export default function Hero() {
   return (
@@ -15,7 +15,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <img src={doctor} alt="Dentist illustration" className="w-64 h-64" />
+          <img src={doctor} alt="Dentist illustration" className="w-128 h-64" />
         </div>
       </div>
     </section>
