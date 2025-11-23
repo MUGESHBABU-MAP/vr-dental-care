@@ -9,13 +9,12 @@ export default function About() {
           <img src={doctor} alt="Dr. R. SREE VINITHA" className="w-full rounded-md" />
         </div>
         <div className="md:col-span-2">
-          <h2 className="text-2xl font-semibold">Dr. R. SREE VINITHA, BDS</h2>
+          <h2 className="text-2xl font-semibold">Dr. R. SREE VINITHA, BDS.,FGD.,FCE.,</h2>
           <p className="text-gray-600 mt-2">Experienced dentist specializing in conservative, patient-centered care. Focused on minimally invasive treatments and excellent communication.</p>
 
-          <h3 className="mt-6 font-semibold">Education & Certifications</h3>
+          <h3 className="mt-6 font-semibold">Qualifications</h3>
           <ul className="list-disc list-inside text-gray-700 mt-2">
-            <li>BDS</li>
-            <li>Advanced Restorative Dentistry Course</li>
+            <li>Advanced Restorative Dentistry</li>
             <li>Certified in Pediatric Dental Care</li>
           </ul>
 

@@ -1,6 +1,6 @@
 # VR Dental Care — React Website
 
-Dr. R. SREE VINITHA  
+Dr. R. SREE VINITHA, BDS.,FGD.,FCE.,
 Dental Surgeon  
 
 Local setup:
