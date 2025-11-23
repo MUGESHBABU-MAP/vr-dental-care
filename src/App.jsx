@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -19,6 +19,9 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contact" element={<Contact />} />
+
+          {/* Redirect any unknown route to Home (ensures default to Home on initial load) */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
       <Footer />

@@ -8,7 +8,8 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* Use PUBLIC_URL as basename so routing works on GitHub Pages */}
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
