@@ -30,7 +30,7 @@ Message: ${form.message}`;
     if (!validate()) return;
     const message = buildMessage();
     if (method === "whatsapp") {
-      const whatsAppNumber = "8072888085"; // user-provided number
+      const whatsAppNumber = "+918667474390"; // user-provided number
       const waHref = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(message)}`;
       window.open(waHref, "_blank", "noopener,noreferrer");
     } else if (method === "email") {
