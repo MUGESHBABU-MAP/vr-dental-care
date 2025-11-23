@@ -2,8 +2,8 @@ import React from "react";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
-  const phone = "8072888085";
-  const email = "mugeshsample@gmail.com";
+  const phone = "+918667474390";
+  const email = "viniragu92@gmail.com";
   const whatsAppLink = `https://wa.me/${phone}`;
 
   return (

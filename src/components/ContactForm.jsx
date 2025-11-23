@@ -23,11 +23,11 @@ export default function ContactForm() {
   };
 
   // WhatsApp & Email targets (updated)
-  const whatsAppNumber = "8072888085";
+  const whatsAppNumber = "+918667474390";
   const whatsAppMessage = encodeURIComponent("Hello, I want to book a dental appointment with Dr. R. SREE VINITHA.");
   const whatsAppHref = `https://wa.me/${whatsAppNumber}?text=${whatsAppMessage}`;
 
-  const emailAddress = "mugeshsample@gmail.com";
+  const emailAddress = "viniragu92@gmail.com";
   const emailSubject = encodeURIComponent("Appointment Request - VR Dental Care");
   const emailBody = encodeURIComponent("Hello,\n\nI would like to book an appointment with Dr. R. SREE VINITHA. Please contact me to confirm.\n\nThanks,\n");
   const mailtoHref = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
